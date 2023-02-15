@@ -4,4 +4,4 @@
 Console.Write("Введите трёх-значное число : ");
 int number = int.Parse(Console.ReadLine()!);
 number = number % 100 / 10;
-Console.Write(number); 
+Console.Write(number);  
