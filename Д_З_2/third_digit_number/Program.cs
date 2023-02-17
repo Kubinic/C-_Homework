@@ -3,7 +3,7 @@
  //что третьей цифры нет
 Console.Write("Введите число : ");
 int number = int.Parse(Console.ReadLine()!);
-if (number > 99){
+if (999 < number > 99){
     number = number % 10;
     Console.WriteLine(number);
 }
